@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windaaaps.store</title>
+     <!--Font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!--custom css file link-->
+     <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <!--Header section starts-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">Windaaa's fashion<span></span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+     <!--Header section ends-->
+
+
+     <!--Home section starts-->
+     <section class="home" id="home">
+        <div class="content">
+            <h3>Welcome to windaaa's fashion</h3>
+            <span>World to fashion girl</span>
+            <p>Dress, Pants, Skirt, headscarf,shoe, slippers!</p>
+            <a href="#products" class="btn">Order Now</a>
+        </div>
+        <div class="image">
+            <img src="home.jpeg">
+        </div>
+     </section>
+
+
+    <!--Home section ends-->
+
+
+  <!--About section starts-->
+<section class="about" id="about">
+    <h1 class="heading"><span>about</span> us</h1>
+    <div class="row">
+        <div class="image">
+            <img src="home 2.jpeg"">
+            <h3>Windaaa's fashion</h3>
+        </div>
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Windaaa's fashion adalah destinasi fashion yang menawarkan beragam pilihan busana untuk memuaskan pelanggan yang mencintai fashion. Windaa's fashion hadir dengan menawarkan fashion yang berkualitas baik dengan berbagai selera dan kebutuhan fashion para pelanggannya.
+            </p>
+            <p>Dibangun atas cinta akan fashion yang begitu cantik dan berkualitas, Windaaa's fashion beragamkan jenis fashionnya.Windaaa's fashion dinamis dan terus berkembang.melibatkan desain, produksi dan pemasaran. Ini mencakup berbagai segmen, termasuk pakaian siap pakai,Sandal,sepatu,kerudung dan banyak lagi. Bisnis fashion sangat dipengaruhi oleh perubahan tren, selera konsumen, dan inovasi desain. Hal ini juga merupakan industri yang sangat kompetitif, di mana merek-merek berlomba-lomba untuk mendapatkan perhatian dan loyalitas pelanggan.</p>
+            <a href="#" class="btn">Learn More</a>
+
+        </div>
+    </div>
+</section>
+  <!--About section ends-->
+
+
+<!--Products section stars-->
+<section class="products" id="products">
+    <h1 class="heading">products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="produk 1.jpg" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk1()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(1)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Dress cute</h3>
+                <div class="price">Rp.175.000</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="produk 2.jpg" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk2()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(2)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Celana jogger</h3>
+                <div class="price">Rp.36.999</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="produk 3.jpg" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk3()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(3)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Hijab pashmina premium</h3>
+                <div class="price">Rp 29.999</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="produk 4.jpg" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk4()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(4)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Rok cargo</h3>
+                <div class="price">Rp 98.000</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="produk 5.jpg" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk5()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(5)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Sepatu sneakers</h3>
+                <div class="price">Rp 139.999</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="produk 6.jpg" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk6()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(6)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Sandal/selop jelly</h3>
+                <div class="price">Rp.65.900 <span></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Products section ends-->
+
+<!-- Keranjang -->
+<div id="Keranjang" class="px-4 py-4">
+    <h3 class="text-center">Keranjang Belanja</h3>
+    <ul id="listKeranjang" class="list-group">
+    </ul>
+    <div id="totalHarga" class="text-center mt-3"></div>
+    <div class="text-center mt-3">
+        <button class="btn btn-danger" onclick="kosongkanKeranjang()">Kosongkan Keranjang</button>
+        <button class="btn btn-success" onclick="beliSemuaProduk()">Beli</button>
+    </div>
+          </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script>
+    var keranjang = [];
+
+    function tambahKeKeranjang(id) {
+        var produk;
+        if (id === 1) {
+            produk = { nama: "Dress Cute", harga: 175000 };
+        } else if (id === 2) {
+            produk = { nama: "Celana Jogger", harga: 36999 };
+        } else if (id === 3) {
+            produk = { nama: "Hijab pashmina premium", harga: 29999 };
+        } else if (id === 4) {
+            produk = { nama: "Rok Cargo", harga: 98000 };
+        } else if (id === 5) {
+            produk = { nama: "Sepatu Sneakers", harga: 139999 };
+        } else if (id === 6) {
+            produk = { nama: "Sandal/ selop jelly", harga: 65900 };
+        } 
+
+
+        keranjang.push(produk);
+        tampilkanKeranjang();
+    }
+    function tampilkanKeranjang() {
+            var listKeranjang = document.getElementById("listKeranjang");
+            var totalHarga = 0;
+            listKeranjang.innerHTML = "";
+            keranjang.forEach(function(produk) {
+                var listItem = document.createElement("li");
+                listItem.className = "list-group-item";
+                listItem.textContent = produk.nama + " - Rp. " + produk.harga.toLocaleString();
+                listKeranjang.appendChild(listItem);
+                totalHarga += produk.harga;
+            });
+            var totalHargaElement = document.getElementById("totalHarga");
+            totalHargaElement.textContent = "Total Harga: Rp. " + totalHarga.toLocaleString();
+        }
+
+        function kosongkanKeranjang() {
+            keranjang = [];
+            tampilkanKeranjang();
+        }
+        function beliSemuaProduk() {
+            // Ganti nomor WhatsApp dengan nomor toko Anda
+            var nomorWhatsApp = "6283141348924";
+            var pesan = "Halo, saya ingin membeli produk: ";
+            keranjang.forEach(function(produk) {
+                pesan += produk.nama + ", ";
+            });
+            pesan += ". Terima kasih!";
+            var urlWhatsApp = "https://wa.me/" + nomorWhatsApp + "?text=" + encodeURIComponent(pesan);
+            window.open(urlWhatsApp, "_blank");
+        }
+</script>
+
+<script>
+function beliProduk1() {
+    // situs web lain
+    var urlProduk ="https://www.tokopedia.com/pinkio/korean-style-areum-dress-import-fashion-wanita-ds819-black-l?extParam=ivf%3Dfalse%26src%3Dsearch";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+function beliProduk2() {
+    // situs web lain
+    var urlProduk ="https://www.tokopedia.com/reflikasport/celana-jogger-jooy-sweetpants-celana-cargo-panjang-wanita-hitam-all-size-22ee6?extParam=cmp%3D1%26ivf%3Dfalse&src=topads";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+function beliProduk3() {
+    // situs web lain
+    var urlProduk ="https://www.tokopedia.com/hijab-rurita/hijab-pasmina-polos-kaos-rayon-premium-peanut?extParam=ivf%3Dfalse%26src%3Dsearch";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+function beliProduk4() {
+    // situs web lain
+    var urlProduk ="https://www.tokopedia.com/siskashop00/100-new-rok-cargo-wanita-panjang-rok-cargo-wanita-bawahan-rok?extParam=ivf%3Dfalse%26src%3Dsearch";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+function beliProduk5() {
+    // situs web lain
+    var urlProduk ="https://www.tokopedia.com/pavillionshoes/pvn-jeno-sepatu-sneakers-wanita-shoes-438-grey-39-4-1084b?extParam=ivf%3Dfalse%26src%3Dsearch";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+function beliProduk6() {
+    // situs web lain
+    var urlProduk ="https://www.tokopedia.com/portofootwear/porto-sepatu-sandal-wanita-sendal-selop-jelly-mules-shoes-usd-grey-40-b0cbc?extParam=ivf%3Dtrue%26src%3Dsearch";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+</script>
+
+<!--contact section starts-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>contact</span> us</h1>
+    <div class="row">
+        <form action="">
+            <input type="text" class="box" placeholder="Name">
+            <input type="email" class="box" placeholder="Email">
+            <input type="number" class="box" placeholder="Number">
+            <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send massage" class="btn">
+        </form>
+    </div>
+</section>
+<!--contact section ends-->
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>contact Us</h3>
+            <a href="https://wa.me/6283141348924">WhatsApp: 083141348924</a>
+            <a href="https://www.instagram.com/wiindaaaaps?igsh=NWx6NjRhanB1bmo1">Instagram: wiindaaaaps</a>
+        </div>
+    </div>
+    <div class="credit">
+        <small>Copyright &copy; 2024 - Winda Permata Sari</small>
+    </div>
+</section>
+
+<!--footer section ends-->
+
+
+
+
+
+
+</body>
+</html>
